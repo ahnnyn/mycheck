@@ -1,0 +1,157 @@
+.container{
+    display: grid;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+}
+
+.bg_header{
+    position: relative;
+}
+
+.bg_header img{
+    width: 100%;
+    height: 250px;
+}
+
+.info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    border: 0px;
+    background-color: #c6c4c4;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    margin-top: -5px;
+    align-items: center;
+}
+
+.nav li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+
+.nav li a b{
+   color: black;
+}
+
+
+
+.content{
+    margin: 100px 100px 80px 50px;
+    display: flex;
+}
+
+
+.detail{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.img_food{
+    width: 500px;
+    height: 400px;
+    background-color: #D6D3DA;
+    margin-right: 100px;
+}
+
+.img_food img{
+    width: 470px;
+    height: 340px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;;
+}
+
+
+.img_food span{
+   font-size: 18px;
+   margin-left: 10px;
+   color: darkslategrey;
+}
+
+
+.para_intro{
+    margin-right: 130px;
+}
+
+
+.para_intro h2{
+    font-size: 35px;
+    color: grey;
+}
+
+.para_intro h3{
+    font-size: 25px;
+    color: palevioletred;
+}
+
+.para_intro h4{
+    font-size: 18px;
+    color: grey;
+}
+
+.footer_right{
+    display: block;
+    border-left: 1px solid grey;
+}
+
+.footer_right h3{
+    font-size: 35px;
+    color: palevioletred;
+    margin-bottom: 10px;
+}
+
+.recipe{
+    margin-left: 30px;
+}
+
+.recipe h4{
+    color: palevioletred;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.contact{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.contact h4{
+    padding: 10px;
+}
+
+.copyright{
+    width: 100%;
+    height: 50px;
+    background-color: darkgrey;
+}
+
+.copyright p{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: white;
+}

@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/21029911_NguyenThiAnh_Tuan2/Image/Bai3/background.jpg');
+}
+
+.imgbg{
+    margin: 50px 50px 50px 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.imgbg img{
+    width: 900px;
+    height: 400px;
+}
